@@ -15,92 +15,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
-
-    <style>
-      body { 
-        margin: 0;
-        padding: 0;
-      }
-
-      .map { 
-        position: absolute; 
-        top: 0; 
-        bottom: 0; 
-        width: 100%; 
-      }
-    </style>
-
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
 
   <body>
-    <div id='map-one' class='map'> </div>
+    <div id="map-one" class="map"></div>
 
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 
-    <script>
-      var statesVisited = [
-        'CA',
-        'CT',
-        'CO',
-        'DE',
-        'FL',
-        'GA',
-        'IL',
-        'IN',
-        'LA',
-        'MD',
-        'MA',
-        'MI',
-        'NV',
-        'NH',
-        'NJ',
-        'NY',
-        'NC',
-        'OH',
-        'OR',
-        'PA',
-        'RI',
-        'SC',
-        'TX',
-        'VT',
-        'VA',
-        'DC',
-        'WI'
-      ];
-
-      L.mapbox.accessToken = 'pk.eyJ1IjoiaXJhY2UiLCJhIjoiOFRlNWJSOCJ9.DnNeo9t7r0a5irSR1Be4_Q';
-
-      var mapOptions = {
-        attributionControl: false        
-      };
-
-      var map = L.mapbox.map('map-one', 'irace.km1dk6m1', mapOptions);
-
-      var stateStyle = {
-        weight: 1,
-        opacity: 0.8,
-        color: 'black',
-        fillOpacity: 0.8,
-        fillColor: '#36455c'
-      };
-
-      var addStateOverlays = function (data) {
-        L.geoJson(data, {
-          style: function () {
-            return stateStyle;
-          },
-          filter: function (feature) {
-            return _.contains(statesVisited, feature.properties.STATE);
-          }
-        }).addTo(map);
-      };
-
-      map.addControl(L.mapbox.legendControl().addLegend(_.size(statesVisited) + ' states visited'));
-
-      $.getJSON('states.geojson', addStateOverlays);
-    </script>
+    <script src="scripts/async.js"></script>
+    <script src="scripts/mapping.js"></script>
   </body>
 </html>

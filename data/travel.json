@@ -1,0 +1,47 @@
+{
+  "countries": [
+    { "id": "CAN" },
+    { "id": "CZE" },
+    { "id": "BHS" },
+    { "id": "FRA" },
+    { "id": "DEU" },
+    { "id": "GBR" },
+    { "id": "GRC" },
+    { "id": "ITA" },
+    { "id": "MAR" },
+    { "id": "NLD" },
+    { "id": "ESP" },
+    { "id": "SWE" },
+    { "id": "USA",
+      "states": [
+        { "id": "CA" },
+        { "id": "CT" },
+        { "id": "CO" },
+        { "id": "DE" },
+        { "id": "FL" },
+        { "id": "GA" },
+        { "id": "IL" },
+        { "id": "IN" },
+        { "id": "LA" },
+        { "id": "MD" },
+        { "id": "MA" },
+        { "id": "MI" },
+        { "id": "NV" },
+        { "id": "NH" },
+        { "id": "NJ" },
+        { "id": "NY" },
+        { "id": "NC" },
+        { "id": "OH" },
+        { "id": "OR" },
+        { "id": "PA" },
+        { "id": "RI" },
+        { "id": "SC" },
+        { "id": "TX" },
+        { "id": "VT" },
+        { "id": "VA" },
+        { "id": "DC" },
+        { "id": "WI" }
+      ]
+    }
+  ]
+}
