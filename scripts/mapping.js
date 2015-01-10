@@ -45,6 +45,31 @@ var processData = function (error, results) {
   var message = _.size(visitedStateIDs) + ' states, ' + _.size(visitedCountryIDs) + ' countries visited';
 
   map.addControl(L.mapbox.legendControl().addLegend(message));
+
+  var visitedCityGeoJSON = _(travelData.cities)
+    .chain()
+    .map(function (city) {
+      return {
+        type: 'Feature',
+        geometry: {
+            type: 'Point',
+            coordinates: city.coordinates
+        },
+        properties: {
+            title: city.name,
+            description: city.description,
+            'marker-size': 'large',
+            'marker-color': '#BE9A6B',
+            'marker-symbol': 'city'
+        }
+      };
+    })
+    .value();
+
+    L.mapbox.featureLayer({
+      type: 'FeatureCollection',
+      features: visitedCityGeoJSON
+    }).addTo(map);
 };
 
 // Fetch travel data and state/country GeoJSON
