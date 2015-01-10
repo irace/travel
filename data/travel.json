@@ -137,6 +137,52 @@
     {
       "name": "Denver",
       "coordinates": [-104.990251, 39.739236]
+    },
+    {
+      "name": "Boulder",
+      "coordinates": [-105.270546, 40.014986]
+    },
+    {
+      "name": "Bend",
+      "description": "Visited Kurt Reinhart, June 2010",
+      "coordinates": [-121.315310, 44.058173]
+    },
+    {
+      "name": "Newark",
+      "coordinates": [-75.454136, 38.634394]
+    },
+    {
+      "name": "Las Vegas",
+      "coordinates": [-115.139830, 36.169941]
+    },
+    {
+      "name": "Las Vegas",
+      "coordinates": [-115.139830, 36.169941]
+    },
+    {
+      "name": "Elkhorn",
+      "description": "Dave Brace’s bacelor party, summer 2012",
+      "coordinates": [-88.544545, 42.672793]
+    },
+    {
+      "name": "Chicago",
+      "coordinates": [-87.629798, 41.878114]
+    },
+    {
+      "name": "Atlanta",
+      "coordinates": [-84.387982, 33.748995]
+    },
+    {
+      "name": "Clemson",
+      "coordinates": [-82.837365, 34.683438]
+    },
+    {
+      "name": "Charleston",
+      "coordinates": [-79.931051, 32.776475]
+    },
+    {
+      "name": "Bristol",
+      "coordinates": [-71.736716, 43.591150]
     }
   ]
 }
