@@ -299,6 +299,14 @@
     {
       "name": "Hershey",
       "coordinates": [-76.650247, 40.285924]
-    }    
+    },
+    {
+      "name": "Lake George",
+      "coordinates": [-73.712341, 43.426181]
+    },
+    {
+      "name": "Montauk",
+      "coordinates": [-71.954515, 41.035935]
+    }
   ]
 }

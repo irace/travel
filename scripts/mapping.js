@@ -24,52 +24,59 @@ var processData = function (error, results) {
     }).addTo(map);
   };
 
-  var visitedCountryIDs = _(travelData.countries).pluck('id');
+  (function addCountryOverlays() {
+    var visitedCountryIDs = _(travelData.countries).pluck('id');
 
-  addOverlaysToMap(countryData, '#FF9B9B', function (feature) {
-    return _(visitedCountryIDs).contains(feature.id);
-  });
+    addOverlaysToMap(countryData, '#FF9B9B', function (feature) {
+      return _(visitedCountryIDs).contains(feature.id);
+    });
+  }());
 
-  var visitedStateIDs = _(travelData.countries)
-    .chain()
-    .map(function (country) {
-      return _(country.states).pluck('id');
-    })
-    .flatten()
-    .value();
+  (function addStateOverlays() {
+    var visitedStateIDs = _(travelData.countries)
+      .chain()
+      .map(function (country) {
+        return _(country.states).pluck('id');
+      })
+      .flatten()
+      .value();
 
-  addOverlaysToMap(stateData, '#36455c', function (feature) {
-    return _(visitedStateIDs).contains(feature.properties.STATE);
-  });
+    addOverlaysToMap(stateData, '#36455c', function (feature) {
+      return _(visitedStateIDs).contains(feature.properties.STATE);
+    });
+  }());
 
-  var message = _.size(visitedStateIDs) + ' states, ' + _.size(visitedCountryIDs) + ' countries visited';
+  (function addCityMarkers() {
+    var visitedCityGeoJSON = _(travelData.cities)
+      .chain()
+      .map(function (city) {
+        return {
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: city.coordinates
+          },
+          properties: {
+            title: city.name,
+            description: city.description,
+            'marker-size': 'medium',
+            'marker-color': '#93949E'
+          }
+        };
+      })
+      .value();
 
-  map.addControl(L.mapbox.legendControl().addLegend(message));
+      L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: visitedCityGeoJSON
+      }).addTo(map);
+    }());
 
-  var visitedCityGeoJSON = _(travelData.cities)
-    .chain()
-    .map(function (city) {
-      return {
-        type: 'Feature',
-        geometry: {
-          type: 'Point',
-          coordinates: city.coordinates
-        },
-        properties: {
-          title: city.name,
-          description: city.description,
-          'marker-size': 'medium',
-          'marker-color': '#93949E'
-          // 'marker-symbol': 'city'
-        }
-      };
-    })
-    .value();
+  (function addLegendControl() {
+    var message = _.size(visitedStateIDs) + ' states, ' + _.size(visitedCountryIDs) + ' countries visited';
 
-    L.mapbox.featureLayer({
-      type: 'FeatureCollection',
-      features: visitedCityGeoJSON
-    }).addTo(map);
+    map.addControl(L.mapbox.legendControl().addLegend(message));
+  }());
 };
 
 // Fetch travel data and state/country GeoJSON
