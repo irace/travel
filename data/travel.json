@@ -283,6 +283,22 @@
     {
       "name": "Mohegan Sun",
       "coordinates": [-72.110095, 41.431690]
-    }
+    },
+    {
+      "name": "Atlantis",
+      "coordinates": [-77.324406, 25.077397]
+    },
+    {
+      "name": "Versailles",
+      "coordinates": [2.130122, 48.801408]
+    },
+    {
+      "name": "Philadelphia",
+      "coordinates": [-75.165222, 39.952584]
+    },
+    {
+      "name": "Hershey",
+      "coordinates": [-76.650247, 40.285924]
+    }    
   ]
 }
