@@ -46,27 +46,30 @@ var processData = function (error, results) {
 
   map.addControl(L.mapbox.legendControl().addLegend(message));
 
-  _(travelData.cities)
+  var visitedCityGeoJSON = _(travelData.cities)
     .chain()
     .map(function (city) {
       return {
         type: 'Feature',
         geometry: {
-            type: 'Point',
-            coordinates: city.coordinates
+          type: 'Point',
+          coordinates: city.coordinates
         },
         properties: {
-            title: city.name,
-            description: city.description,
-            'marker-size': 'large',
-            'marker-color': '#BE9A6B',
-            'marker-symbol': 'city'
+          title: city.name,
+          description: city.description,
+          'marker-size': 'large',
+          'marker-color': '#BE9A6B',
+          'marker-symbol': 'city'
         }
       };
     })
-    .each(function (cityGEOJSON) {
-      L.mapbox.featureLayer(cityGEOJSON).addTo(map);
-    });
+    .value();
+
+    L.mapbox.featureLayer({
+      type: 'FeatureCollection',
+      features: visitedCityGeoJSON
+    }).addTo(map);
 };
 
 // Fetch travel data and state/country GeoJSON
