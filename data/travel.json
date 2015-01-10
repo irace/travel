@@ -183,6 +183,58 @@
     {
       "name": "Bristol",
       "coordinates": [-71.736716, 43.591150]
-    }
+    },
+    {
+      "name": "New Orleans",
+      "coordinates": [-90.071532, 29.951066]
+    },
+    {
+      "name": "Youngstown",
+      "coordinates": [-80.649519, 41.099780]
+    },
+    {
+      "name": "Austin",
+      "coordinates": [-97.743061, 30.267153]
+    }, 
+    {
+      "name": "South Padre Island",
+      "coordinates": [-97.168126, 26.111840]
+    },
+    {
+      "name": "Washington, DC",
+      "coordinates": [77.036871, 38.907192]
+    },
+    {
+      "name": "Boston",
+      "coordinates": [-71.058880, 42.360082]
+    },
+    {
+      "name": "Ocean City",
+      "coordinates": [-75.084906, 38.336503]
+    },
+    {
+      "name": "Charlotte",
+      "coordinates": [-80.843127, 35.227087]
+    },
+    {
+      "name": "Charlotte",
+      "coordinates": [-75.466516, 35.558493]
+    },
+    {
+      "name": "Miami",
+      "coordinates": [-80.191790, 25.761680]
+    },
+    {
+      "name": "Fort Lauderdale",
+      "coordinates": [-80.137317, 26.122439]
+    },
+    {
+      "name": "Orlando",
+      "coordinates": [-81.379236, 28.538335]
+    },
+    {
+      "name": "Palm City",
+      "coordinates": [-80.266159, 27.167827]
+    }    
   ]
 }
