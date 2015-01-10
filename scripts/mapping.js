@@ -46,7 +46,7 @@ var processData = function (error, results) {
 
   map.addControl(L.mapbox.legendControl().addLegend(message));
 
-  var visitedCityGeoJSON = _(travelData.cities)
+  _(travelData.cities)
     .chain()
     .map(function (city) {
       return {
@@ -64,12 +64,9 @@ var processData = function (error, results) {
         }
       };
     })
-    .value();
-
-    L.mapbox.featureLayer({
-      type: 'FeatureCollection',
-      features: visitedCityGeoJSON
-    }).addTo(map);
+    .each(function (cityGEOJSON) {
+      L.mapbox.featureLayer(cityGEOJSON).addTo(map);
+    });
 };
 
 // Fetch travel data and state/country GeoJSON

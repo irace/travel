@@ -47,12 +47,12 @@
   "cities": [
     {
       "name": "New York",
-      "descriptions": "Where I live!",
+      "description": "Where I live!",
       "coordinates": [40.730904, -73.997641]
     },
     {
       "name": "Burlington",
-      "descriptions": "Came here on a weekend trip with Tracy",
+      "description": "Came here on a weekend trip with Tracy",
       "coordinates": [44.475882, -73.212072]
     }
   ]
