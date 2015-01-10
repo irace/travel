@@ -133,6 +133,10 @@
     {
       "name": "Stockholm",
       "coordinates": [18.068581, 59.329323]
+    },
+    {
+      "name": "Denver",
+      "coordinates": [-104.990251, 39.739236]
     }
   ]
 }
