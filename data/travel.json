@@ -54,6 +54,85 @@
       "name": "Burlington",
       "description": "Came here on a weekend trip with Tracy",
       "coordinates": [-73.212072, 44.475882]
-    }
+    },
+    {
+      "name": "Santa Monica",
+      "description": "Stayed here for the 2013 Boston College at USC Trojans game",
+      "coordinates": [-118.491191, 34.019454]
+    },
+    {
+      "name": "San Francisco",
+      "description": "<ul><li>Vacation with Tracy in 2011</li><li>WWDC 2013</li></ul>",
+      "coordinates": [-122.419416, 37.774929]
+    },
+    {
+      "name": "South Bend",
+      "description": "Boston College at Notre Dame, fall 2007",
+      "coordinates": [-86.251990, 41.676355]
+    },
+    {
+      "name": "Paris",
+      "coordinates": [2.352222, 48.856614]
+    },
+    {
+      "name": "London",
+      "coordinates": [-0.127758, 51.507351]      
+    },
+    {
+      "name": "Amsterdam",
+      "coordinates": [4.895168, 52.370216]
+    },
+    {
+      "name": "Rome",
+      "coordinates": [12.496366, 41.902783]
+    },
+    {
+      "name": "Florence",
+      "coordinates": [11.248001, 43.771033]
+    },
+    {
+      "name": "Pisa",
+      "coordinates": [10.401689, 43.722839]
+    },
+    {
+      "name": "Venice",
+      "coordinates": [12.315515, 45.440847]
+    },
+    {
+      "name": "Cinque Terre",
+      "coordinates": [9.712391, 44.128109]
+    },
+    {
+      "name": "Prague",
+      "coordinates": [14.437800, 50.075538]
+    },
+    {
+      "name": "Costa Navarino",
+      "coordinates": [21.656628, 36.956091]
+    },
+    {
+      "name": "Athens",
+      "coordinates": [23.729360, 37.983917]
+    },
+    {
+      "name": "Zakynthos",
+      "coordinates": [20.898827, 37.788160]
+    },
+    {
+      "name": "Barcelona",
+      "coordinates": [2.173403, 41.385064]
+    },
+    {
+      "name": "Marrakech",
+      "coordinates": [-8.008889, 31.630000]
+    },
+    {
+      "name": "Munich",
+      "coordinates": [11.581981, 48.135125]
+    },
+    {
+      "name": "Stockholm",
+      "coordinates": [18.068581, 59.329323]
+    },
   ]
 }
