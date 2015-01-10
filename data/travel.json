@@ -66,6 +66,10 @@
       "coordinates": [-122.419416, 37.774929]
     },
     {
+      "name": "Napa",
+      "coordinates": [-122.286865, 38.297538]
+    },
+    {
       "name": "South Bend",
       "description": "Boston College at Notre Dame, fall 2007",
       "coordinates": [-86.251990, 41.676355]
@@ -202,7 +206,7 @@
     },
     {
       "name": "Washington, DC",
-      "coordinates": [77.036871, 38.907192]
+      "coordinates": [-77.036871, 38.907192]
     },
     {
       "name": "Boston",
@@ -235,6 +239,50 @@
     {
       "name": "Palm City",
       "coordinates": [-80.266159, 27.167827]
-    }    
+    },
+    {
+      "name": "Montreal",
+      "coordinates": [-73.567256, 45.501689]
+    },
+    {
+      "name": "Hilton Head",
+      "coordinates": [-80.752608, 32.216316]
+    },
+    {
+      "name": "Hilton Head",
+      "coordinates": [-80.752608, 32.216316]
+    },
+    {
+      "name": "Savannah",
+      "coordinates": [-81.099834, 32.083541]
+    },
+    {
+      "name": "Charlottesville",
+      "coordinates": [-78.476678, 38.029306]
+    },
+    {
+      "name": "Hampstead",
+      "coordinates": [-71.180980, 42.874488]
+    },
+    {
+      "name": "Manchester",
+      "coordinates": [-71.454789, 42.995640]
+    },
+    {
+      "name": "Providence",
+      "coordinates": [-71.412834, 41.823989]
+    },
+    {
+      "name": "Cape Cod",
+      "coordinates": [-70.320911, 41.699096]
+    },
+    {
+      "name": "Albany",
+      "coordinates": [-73.756232, 42.652579]
+    },
+    {
+      "name": "Mohegan Sun",
+      "coordinates": [-72.110095, 41.431690]
+    }
   ]
 }
