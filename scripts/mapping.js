@@ -58,9 +58,9 @@ var processData = function (error, results) {
         properties: {
           title: city.name,
           description: city.description,
-          'marker-size': 'large',
-          'marker-color': '#93949E',
-          'marker-symbol': 'city'
+          'marker-size': 'medium',
+          'marker-color': '#93949E'
+          // 'marker-symbol': 'city'
         }
       };
     })
