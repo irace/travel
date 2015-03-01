@@ -32,16 +32,27 @@ var processData = function (error, results) {
       return country.states;
     })
     .flatten()
+    .compact()
     .value();
 
   var cities = (function () {
-    var countryCities = _(countries).map(function (country) {
-      return country.cities;
-    });
+    var countryCities = _(countries)
+      .chain()
+      .map(function (country) {
+        return country.cities;
+      })
+      .flatten()
+      .compact()
+      .value();
 
-    var stateCities = _(states).map(function (state) {
-      return state.cities;
-    });
+    var stateCities = _(states)
+      .chain()
+      .map(function (state) {
+        return state.cities;
+      })
+      .flatten()
+      .compact()
+      .value();
 
     return _(countryCities).union(stateCities);
   }());
