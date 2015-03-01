@@ -546,9 +546,9 @@
           "id": "WI",
           "cities": [
             {
-              "name": "Elkhorn",
-              "description": "Dave Brace’s bacelor party, July 2012",
-              "coordinates": [-88.544545, 42.672793]
+              "name": "East Troy",
+              "description": "Dave Brace’s bacelor party, July 2012. Attended <a href=\"http://www.setlist.fm/setlist/dave-matthews-band/2012/alpine-valley-music-theatre-east-troy-wi-13df517d.html\">this Dave Matthews Band concert</a> at the Apline Valley Music Theatre",
+              "coordinates": [-88.405096, 42.785292]
             }
           ]
         }
