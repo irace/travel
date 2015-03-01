@@ -27,7 +27,7 @@ var processData = function (error, results) {
   (function addCountryOverlays() {
     var visitedCountryIDs = _(travelData.countries).pluck('id');
 
-    addOverlaysToMap(countryData, '#FF9B9B', function (feature) {
+    addOverlaysToMap(countryData, '#33864e', function (feature) {
       return _(visitedCountryIDs).contains(feature.id);
     });
   }());
