@@ -1,361 +1,558 @@
 {
   "countries": [
-    { "id": "CAN" },
-    { "id": "CZE" },
-    { "id": "BHS" },
-    { "id": "FRA" },
-    { "id": "DEU" },
-    { "id": "GBR" },
-    { "id": "GRC" },
-    { "id": "ITA" },
-    { "id": "MAR" },
-    { "id": "NLD" },
-    { "id": "ESP" },
-    { "id": "SWE" },
-    { "id": "USA",
-      "states": [
-        { "id": "AZ" },
-        { "id": "CA" },
-        { "id": "CT" },
-        { "id": "CO" },
-        { "id": "DE" },
-        { "id": "FL" },
-        { "id": "GA" },
-        { "id": "IL" },
-        { "id": "IN" },
-        { "id": "LA" },
-        { "id": "MD" },
-        { "id": "MA" },
-        { "id": "MI" },
-        { "id": "NV" },
-        { "id": "NH" },
-        { "id": "NJ" },
-        { "id": "NY" },
-        { "id": "NC" },
-        { "id": "OH" },
-        { "id": "OR" },
-        { "id": "PA" },
-        { "id": "RI" },
-        { "id": "SC" },
-        { "id": "TX" },
-        { "id": "VT" },
-        { "id": "VA" },
-        { "id": "DC" },
-        { "id": "WI" }
+    { 
+      "id": "CAN",
+      "cities": [
+        {
+          "name": "Halifax",
+          "description": "Vacation with family, 2002",
+          "coordinates": [-1.857540, 53.727020]
+        },
+        {
+          "name": "Nova Scotia",
+          "description": "Vacation with family, 2002",
+          "coordinates": [-63.744311, 44.681987]
+        },
+        {
+          "name": "St. John",
+          "description": "Vacation with family, 2002",
+          "coordinates": [-66.063308, 45.273315]
+        },
+        {
+          "name": "Montreal",
+          "description": "<ul><li>With BC friends, fall 2004</li><li>For the <a href=\"http://cingleton.com\">Çingleton</a> conference, October 2014</li></ul>",
+          "coordinates": [-73.567256, 45.501689]
+        }
       ]
-    }
-  ],
-  "cities": [
-    {
-      "name": "New York",
-      "description": "Where I live, grew up, etc.",
-      "coordinates": [-73.997641, 40.730904]
     },
-    {
-      "name": "Burlington",
-      "description": "Came here for a long weekend with Tracy in the Summer of 2013",
-      "coordinates": [-73.212072, 44.475882]
+    { 
+      "id": "CZE",
+      "cities": [
+        {
+          "name": "Prague",
+          "description": "Vacation with Tracy, July 2014",
+          "coordinates": [14.437800, 50.075538]
+        }
+      ]
     },
-    {
-      "name": "Santa Monica",
-      "description": "Stayed here for the 2013 Boston College at USC Trojans game",
-      "coordinates": [-118.491191, 34.019454]
+    { 
+      "id": "BHS",
+      "cities": [
+        {
+          "name": "Atlantis",
+          "description": "Vacation with family, 2003",
+          "coordinates": [-77.324406, 25.077397]
+        }
+      ]
     },
-    {
-      "name": "San Francisco",
-      "description": "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2015</li</ul>",
-      "coordinates": [-122.419416, 37.774929]
+    { 
+      "id": "FRA",
+      "cities": [
+        {
+          "name": "Paris",
+          "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with Tracy, June 2014</li></ul>",
+          "coordinates": [2.352222, 48.856614]
+        },
+        {
+          "name": "Versailles",
+          "description": "Vacation with Tracy, June 2014",
+          "coordinates": [2.130122, 48.801408]
+        }
+      ]
     },
-    {
-      "name": "Napa",
-      "description": "Vacation with Tracy, October 2011",
-      "coordinates": [-122.286865, 38.297538]
+    { 
+      "id": "DEU",
+        "cities": [
+          {
+            "name": "Munich",
+            "description": "Vacation with Tracy, July 2014",
+            "coordinates": [11.581981, 48.135125]
+          }
+        ]
+      },
+    { 
+      "id": "GBR",
+      "cities": [
+        {
+          "name": "London",
+          "description": "Traveling with Eddie, May 2008",
+          "coordinates": [-0.127758, 51.507351]      
+        }
+      ]
     },
-    {
-      "name": "Sonoma",
-      "description": "Vacation with Tracy, October 2011",
-      "coordinates": [-122.458036, 38.291859]
-    },    
-    {
-      "name": "Palm Springs",
-      "description": "Vacation with Tracy, February 2015",
-      "coordinates": [-116.545292, 33.830296]
-    },  
-    {
-      "name": "Dana Point",
-      "description": "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
-      "coordinates": [-117.698107, 33.466972]
-    },  
-    {
-      "name": "Scottsdale",
-      "description": "Danielle Fertig’s wedding, February 2015",
-      "coordinates": [-111.926052, 33.494170]
-    },          
-    {
-      "name": "South Bend",
-      "description": "Boston College at Notre Dame, October 2007",
-      "coordinates": [-86.251990, 41.676355]
+    { 
+      "id": "GRC",
+      "cities": [
+        {
+          "name": "Costa Navarino",
+          "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",      
+          "coordinates": [21.656628, 36.956091]
+        },
+        {
+          "name": "Zakynthos",
+          "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
+          "coordinates": [20.898827, 37.788160]
+        },
+        {
+          "name": "Athens",
+          "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
+          "coordinates": [23.729360, 37.983917]
+        }
+      ]
     },
-    {
-      "name": "Paris",
-      "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with Tracy, June 2014</li></ul>",
-      "coordinates": [2.352222, 48.856614]
+    { 
+      "id": "ITA",
+      "cities": [
+        {
+          "name": "Rome",
+          "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with family, June 2012</li></ul>",
+          "coordinates": [12.496366, 41.902783]
+        },
+        {
+          "name": "Cinque Terre",
+          "description": "Traveling with Eddie, May 2008",
+          "coordinates": [9.712391, 44.128109]
+        },
+        {
+          "name": "Florence",
+          "description": "Vacation with family, June 2012",
+          "coordinates": [11.248001, 43.771033]
+        },
+        {
+          "name": "Pisa",
+          "description": "Vacation with family, June 2012",
+          "coordinates": [10.401689, 43.722839]
+        },
+        {
+          "name": "Venice",
+          "description": "Vacation with family, June 2012",
+          "coordinates": [12.315515, 45.440847]
+        }
+      ]
     },
-    {
-      "name": "London",
-      "description": "Traveling with Eddie, May 2008",
-      "coordinates": [-0.127758, 51.507351]      
+    { 
+      "id": "MAR",
+      "cities": [
+        {
+          "name": "Marrakech",
+          "description": "Vacation with Tracy, September 2012",
+          "coordinates": [-8.008889, 31.630000]
+        }
+      ]
     },
-    {
-      "name": "Amsterdam",
-      "description": "Traveling with Eddie, May 2008",
-      "coordinates": [4.895168, 52.370216]
+    { 
+      "id": "NLD",
+      "cities": [
+        {
+          "name": "Amsterdam",
+          "description": "Traveling with Eddie, May 2008",
+          "coordinates": [4.895168, 52.370216]
+        }
+      ]
     },
-    {
-      "name": "Rome",
-      "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with family, June 2012</li></ul>",
-      "coordinates": [12.496366, 41.902783]
+    { 
+      "id": "ESP",
+      "cities": [
+        {
+          "name": "Barcelona",
+          "description": "Vacation with Tracy, September 2012",
+          "coordinates": [2.173403, 41.385064]
+        }
+      ]
     },
-    {
-      "name": "Florence",
-      "description": "Vacation with family, June 2012",
-      "coordinates": [11.248001, 43.771033]
+    { 
+      "id": "SWE",
+      "cities": [
+        {
+          "name": "Stockholm",
+          "description": "Vacation with Tracy, July 2014",
+          "coordinates": [18.068581, 59.329323]
+        }
+      ]
     },
-    {
-      "name": "Pisa",
-      "description": "Vacation with family, June 2012",
-      "coordinates": [10.401689, 43.722839]
-    },
-    {
-      "name": "Venice",
-      "description": "Vacation with family, June 2012",
-      "coordinates": [12.315515, 45.440847]
-    },
-    {
-      "name": "Cinque Terre",
-      "description": "Traveling with Eddie, May 2008",
-      "coordinates": [9.712391, 44.128109]
-    },
-    {
-      "name": "Prague",
-      "description": "Vacation with Tracy, July 2014",
-      "coordinates": [14.437800, 50.075538]
-    },
-    {
-      "name": "Costa Navarino",
-      "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",      
-      "coordinates": [21.656628, 36.956091]
-    },
-    {
-      "name": "Athens",
-      "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
-      "coordinates": [23.729360, 37.983917]
-    },
-    {
-      "name": "Zakynthos",
-      "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
-      "coordinates": [20.898827, 37.788160]
-    },
-    {
-      "name": "Barcelona",
-      "description": "Vacation with Tracy, September 2012",
-      "coordinates": [2.173403, 41.385064]
-    },
-    {
-      "name": "Marrakech",
-      "description": "Vacation with Tracy, September 2012",
-      "coordinates": [-8.008889, 31.630000]
-    },
-    {
-      "name": "Munich",
-      "description": "Vacation with Tracy, July 2014",
-      "coordinates": [11.581981, 48.135125]
-    },
-    {
-      "name": "Stockholm",
-      "description": "Vacation with Tracy, July 2014",
-      "coordinates": [18.068581, 59.329323]
-    },
-    {
-      "name": "Denver",
-      "description": "Visited Joe with Costa and Abbey, April 2013",
-      "coordinates": [-104.990251, 39.739236]
-    },
-    {
-      "name": "Boulder",
-      "description": "Visited Joe with Costa and Abbey, April 2013",
-      "coordinates": [-105.270546, 40.014986]
-    },
-    {
-      "name": "Bend",
-      "description": "Visited Kurt Reinhart, June 2010",
-      "coordinates": [-121.315310, 44.058173]
-    },
-    {
-      "name": "Newark",
-      "coordinates": [-75.454136, 38.634394]
-    },
-    {
-      "name": "Las Vegas",
-      "description": "<ul><li>Trip with Tracy’s work, October 2011</li><li>In 2009 with Eddie, Bobby, etc.</li></ul>",
-      "coordinates": [-115.139830, 36.169941]
-    },
-    {
-      "name": "Elkhorn",
-      "description": "Dave Brace’s bacelor party, July 2012",
-      "coordinates": [-88.544545, 42.672793]
-    },
-    {
-      "name": "Chicago",
-      "description": "<ul><li>Visisted Dave Brace, August 2007</li><li>Boston College at Notre Dame, October 2007</li><li>Dave Brace’s wedding, August 2012</li></ul>",
-      "coordinates": [-87.629798, 41.878114]
-    },
-    {
-      "name": "Atlanta",
-      "description": "Visited prior to attending Boston College at Clemson, November 2007",
-      "coordinates": [-84.387982, 33.748995]
-    },
-    {
-      "name": "Clemson",
-      "description": "Boston College at Clemson, November 2007",
-      "coordinates": [-82.837365, 34.683438]
-    },
-    {
-      "name": "Charleston",
-      "coordinates": [-79.931051, 32.776475]
-    },
-    {
-      "name": "Bristol",
-      "description": "Countless visits to Adam Quinn’s house on Newfound Lake",
-      "coordinates": [-71.736716, 43.591150]
-    },
-    {
-      "name": "New Orleans",
-      "description": "Trip with Tracy’s work, October 2012",
-      "coordinates": [-90.071532, 29.951066]
-    },
-    {
-      "name": "Youngstown",
-      "coordinates": [-80.649519, 41.099780]
-    },
-    {
-      "name": "Austin",
-      "description": "Long weekend with Tracy, October 2011",
-      "coordinates": [-97.743061, 30.267153]
-    }, 
-    {
-      "name": "South Padre Island",
-      "coordinates": [-97.168126, 26.111840]
-    },
-    {
-      "name": "Washington, DC",
-      "coordinates": [-77.036871, 38.907192]
-    },
-    {
-      "name": "Boston",
-      "description": "Attended Boston College from 2004-2008, countless trips back since. Also came here on a field trip in junior high.",
-      "coordinates": [-71.058880, 42.360082]
-    },
-    {
-      "name": "Ocean City",
-      "coordinates": [-75.084906, 38.336503]
-    },
-    {
-      "name": "Charlotte",
-      "coordinates": [-80.843127, 35.227087]
-    },
-    {
-      "name": "Columbia",
-      "description": "Keith Dalick’s wedding, October 2013",
-      "coordinates": [-81.034814, 34.000710]
-    },
-    {
-      "name": "Miami",
-      "description": "Trip with Tracy’s work, October 2010",
-      "coordinates": [-80.191790, 25.761680]
-    },
-    {
-      "name": "Fort Lauderdale",
-      "description": "Numerous times since 2010 to visit Tracy’s parents",
-      "coordinates": [-80.137317, 26.122439]
-    },
-    {
-      "name": "Orlando",
-      "coordinates": [-81.379236, 28.538335]
-    },
-    {
-      "name": "Palm City",
-      "coordinates": [-80.266159, 27.167827]
-    },
-    {
-      "name": "Montreal",
-      "description": "<ul><li>With BC friends, fall 2004</li><li>For the <a href=\"http://cingleton.com\">Çingleton</a> conference, October 2014</li></ul>",
-      "coordinates": [-73.567256, 45.501689]
-    },
-    {
-      "name": "Hilton Head",
-      "coordinates": [-80.752608, 32.216316]
-    },
-    {
-      "name": "Hilton Head",
-      "coordinates": [-80.752608, 32.216316]
-    },
-    {
-      "name": "Savannah",
-      "coordinates": [-81.099834, 32.083541]
-    },
-    {
-      "name": "Charlottesville",
-      "coordinates": [-78.476678, 38.029306]
-    },
-    {
-      "name": "Hampstead",
-      "coordinates": [-71.180980, 42.874488]
-    },
-    {
-      "name": "Manchester",
-      "coordinates": [-71.454789, 42.995640]
-    },
-    {
-      "name": "Providence",
-      "coordinates": [-71.412834, 41.823989]
-    },
-    {
-      "name": "Cape Cod",
-      "coordinates": [-70.320911, 41.699096]
-    },
-    {
-      "name": "Albany",
-      "coordinates": [-73.756232, 42.652579]
-    },
-    {
-      "name": "Mohegan Sun",
-      "coordinates": [-72.110095, 41.431690]
-    },
-    {
-      "name": "Atlantis",
-      "coordinates": [-77.324406, 25.077397]
-    },
-    {
-      "name": "Versailles",
-      "description": "Vacation with Tracy, June 2014",
-      "coordinates": [2.130122, 48.801408]
-    },
-    {
-      "name": "Philadelphia",
-      "coordinates": [-75.165222, 39.952584]
-    },
-    {
-      "name": "Hershey",
-      "coordinates": [-76.650247, 40.285924]
-    },
-    {
-      "name": "Lake George",
-      "coordinates": [-73.712341, 43.426181]
-    },
-    {
-      "name": "Montauk",
-      "coordinates": [-71.954515, 41.035935]
+    { 
+      "id": "USA",
+      "states": [
+        { 
+          "id": "AZ",
+          "cities": [
+            {
+              "name": "Scottsdale",
+              "description": "Danielle Fertig’s wedding, February 2015",
+              "coordinates": [-111.926052, 33.494170]
+            }
+          ]
+        },
+        { 
+          "id": "CA",
+          "cities": [
+            {
+              "name": "San Francisco",
+              "description": "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2015</li</ul>",
+              "coordinates": [-122.419416, 37.774929]
+            },
+            {
+              "name": "Napa",
+              "description": "Vacation with Tracy, October 2011",
+              "coordinates": [-122.286865, 38.297538]
+            },
+            {
+              "name": "Santa Monica",
+              "description": "Stayed here for the 2013 Boston College at USC Trojans game",
+              "coordinates": [-118.491191, 34.019454]
+            },
+            {
+              "name": "Sonoma",
+              "description": "Vacation with Tracy, October 2011",
+              "coordinates": [-122.458036, 38.291859]
+            },    
+            {
+              "name": "Palm Springs",
+              "description": "Vacation with Tracy, February 2015",
+              "coordinates": [-116.545292, 33.830296]
+            },  
+            {
+              "name": "Dana Point",
+              "description": "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
+              "coordinates": [-117.698107, 33.466972]
+            }
+          ]          
+        },
+        { 
+          "id": "CT",
+          "cities": [
+            {
+              "name": "Mohegan Sun",
+              "coordinates": [-72.110095, 41.431690]
+            }
+          ]          
+        },
+        { 
+          "id": "CO",
+          "cities": [
+            {
+              "name": "Denver",
+              "description": "Visited Joe with Costa and Abbey, April 2013",
+              "coordinates": [-104.990251, 39.739236]
+            },
+            {
+              "name": "Boulder",
+              "description": "Visited Joe with Costa and Abbey, April 2013",
+              "coordinates": [-105.270546, 40.014986]
+            }
+          ]         
+        },
+        { 
+          "id": "DE",
+          "cities": [
+            {
+              "name": "Newark",
+              "description": "Visited Meghan and Erin, fall 2009",
+              "coordinates": [-75.454136, 38.634394]
+            }
+          ]         
+        },
+        { 
+          "id": "FL",
+          "cities": [
+            {
+              "name": "Palm City",
+              "description": "",
+              "coordinates": [-80.266159, 27.167827]
+            },
+            {
+              "name": "Orlando",
+              "description": "",
+              "coordinates": [-81.379236, 28.538335]
+            },
+            {
+              "name": "Fort Lauderdale",
+              "description": "Numerous times since 2010 to visit Tracy’s parents",
+              "coordinates": [-80.137317, 26.122439]
+            },
+            {
+              "name": "Miami",
+              "description": "Trip with Tracy’s work, October 2010",
+              "coordinates": [-80.191790, 25.761680]
+            }
+          ]
+        },
+        { 
+          "id": "GA",
+          "cities": [
+            {
+              "name": "Atlanta",
+              "description": "Visited prior to attending Boston College at Clemson, November 2007",
+              "coordinates": [-84.387982, 33.748995]
+            },
+            {
+              "name": "Savannah",
+              "description": "",
+              "coordinates": [-81.099834, 32.083541]
+            }
+          ]
+        },
+        { 
+          "id": "IL",
+          "cities": [
+            {
+              "name": "Chicago",
+              "description": "<ul><li>Visisted Dave Brace, August 2007</li><li>Boston College at Notre Dame, October 2007</li><li>Dave Brace’s wedding, August 2012</li></ul>",
+              "coordinates": [-87.629798, 41.878114]
+            }          
+          ]
+        },
+        { 
+          "id": "IN",
+          "cities": [
+            {
+              "name": "South Bend",
+              "description": "Boston College at Notre Dame, October 2007",
+              "coordinates": [-86.251990, 41.676355]
+            }
+          ]
+        },
+        { 
+          "id": "LA",
+          "cities": [
+            {
+              "name": "New Orleans",
+              "description": "Trip with Tracy’s work, October 2012",
+              "coordinates": [-90.071532, 29.951066]
+            }
+          ]
+        },
+        { 
+          "id": "MD",
+          "cities": [
+            {
+              "name": "Ocean City",
+              "description": "",
+              "coordinates": [-75.084906, 38.336503]
+            }
+          ]
+        },
+        { 
+          "id": "MA",
+          "cities": [
+            {
+              "name": "Boston",
+              "description": "Attended Boston College from 2004-2008, countless trips back since. Also came here on a field trip in junior high.",
+              "coordinates": [-71.058880, 42.360082]
+            },
+            {
+              "name": "Cape Cod",
+              "description": "",
+              "coordinates": [-70.320911, 41.699096]
+            }
+          ]
+        },
+        { 
+          "id": "MI",
+          "cities": [
+          ]
+        },
+        { 
+          "id": "NV",
+          "cities": [
+            {
+              "name": "Las Vegas",
+              "description": "<ul><li>Trip with Tracy’s work, October 2011</li><li>In 2009 with Eddie, Bobby, etc.</li></ul>",
+              "coordinates": [-115.139830, 36.169941]
+            }
+          ]
+        },
+        { 
+          "id": "NH",
+          "cities": [
+            {
+              "name": "Bristol",
+              "description": "Countless visits to Adam Quinn’s house on Newfound Lake",
+              "coordinates": [-71.736716, 43.591150]
+            },
+            {
+              "name": "Hampstead",
+              "description": "",              
+              "coordinates": [-71.180980, 42.874488]
+            },
+            {
+              "name": "Manchester",
+              "description": "",
+              "coordinates": [-71.454789, 42.995640]
+            }
+          ]
+        },
+        { 
+          "id": "NJ",
+          "cities": [
+          ]
+        },
+        { 
+          "id": "NY",
+          "cities": [
+            {
+              "name": "New York",
+              "description": "Where I live, grew up, etc.",
+              "coordinates": [-73.997641, 40.730904]
+            },
+            {
+              "name": "Lake George",
+              "description": "",
+              "coordinates": [-73.712341, 43.426181]
+            },
+            {
+              "name": "Albany",
+              "description": "",
+              "coordinates": [-73.756232, 42.652579]
+            },
+            {
+              "name": "Montauk",
+              "description": "",
+              "coordinates": [-71.954515, 41.035935]
+            }
+          ]
+        },
+        { 
+          "id": "NC",
+          "cities": [
+            {
+              "name": "Charlotte",
+              "description": "",
+              "coordinates": [-80.843127, 35.227087]
+            }          
+          ]
+        },
+        { 
+          "id": "OH",
+          "cities": [
+            {
+              "name": "Youngstown",
+              "description": "",
+              "coordinates": [-80.649519, 41.099780]
+            }
+          ]
+        },
+        { 
+          "id": "OR",
+          "cities": [
+            {
+              "name": "Bend",
+              "description": "Visited Kurt Reinhart, June 2010",
+              "coordinates": [-121.315310, 44.058173]
+            },
+            {
+              "name": "Portland",
+              "description": "Visited Kurt Reinhart, June 2010",
+              "coordinates": [-122.676482, 45.523062]
+            }
+          ]
+        },
+        { 
+          "id": "PA",
+          "cities": [
+            {
+              "name": "Hershey",
+              "description": "",
+              "coordinates": [-76.650247, 40.285924]
+            },
+            {
+              "name": "Philadelphia",
+              "description": "",
+              "coordinates": [-75.165222, 39.952584]
+            }
+          ]
+        },
+        { 
+          "id": "RI",
+          "cities": [
+            {
+              "name": "Providence",
+              "description": "",
+              "coordinates": [-71.412834, 41.823989]
+            }
+          ]
+        },
+        { 
+          "id": "SC",
+          "cities": [
+            {
+              "name": "Clemson",
+              "description": "Boston College at Clemson, November 2007",
+              "coordinates": [-82.837365, 34.683438]
+            },
+            {
+              "name": "Charleston",
+              "description": "",
+              "coordinates": [-79.931051, 32.776475]
+            },
+            {
+              "name": "Columbia",
+              "description": "Keith Dalick’s wedding, October 2013",
+              "coordinates": [-81.034814, 34.000710]
+            },
+            {
+              "name": "Hilton Head",
+              "description": "",
+              "coordinates": [-80.752608, 32.216316]
+            }          
+          ]
+        },
+        { 
+          "id": "TX",
+          "cities": [
+            {
+              "name": "South Padre Island",
+              "description": "",
+              "coordinates": [-97.168126, 26.111840]
+            },
+            {
+              "name": "Austin",
+              "description": "Long weekend with Tracy, October 2011",
+              "coordinates": [-97.743061, 30.267153]
+            }
+          ]
+        },
+        { 
+          "id": "VT",
+          "cities": [
+            {
+              "name": "Burlington",
+              "description": "Came here for a long weekend with Tracy in the Summer of 2013",
+              "coordinates": [-73.212072, 44.475882]
+            }
+          ]
+        },
+        { 
+          "id": "VA",
+          "cities": [
+            {
+              "name": "Charlottesville",
+              "description": "",
+              "coordinates": [-78.476678, 38.029306]
+            }          
+          ]
+        },
+        { 
+          "id": "DC",
+          "cities": [
+            {
+              "name": "Washington, DC",
+              "description": "",
+              "coordinates": [-77.036871, 38.907192]
+            }
+          ]
+        },
+        { 
+          "id": "WI",
+          "cities": [
+            {
+              "name": "Elkhorn",
+              "description": "Dave Brace’s bacelor party, July 2012",
+              "coordinates": [-88.544545, 42.672793]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

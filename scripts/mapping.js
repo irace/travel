@@ -24,8 +24,30 @@ var processData = function (error, results) {
     }).addTo(map);
   };
 
+  var countries = travelData.countries;
+
+  var states = _(countries)
+    .chain()
+    .map(function (country) {
+      return country.states;
+    })
+    .flatten()
+    .value();
+
+  var cities = (function () {
+    var countryCities = _(countries).map(function (country) {
+      return country.cities;
+    });
+
+    var stateCities = _(states).map(function (state) {
+      return state.cities;
+    });
+
+    return _(countryCities).union(stateCities);
+  }());
+
   (function addCountryOverlays() {
-    var visitedCountryIDs = _(travelData.countries).pluck('id');
+    var visitedCountryIDs = _(countries).pluck('id');
 
     addOverlaysToMap(countryData, '#33864e', function (feature) {
       return _(visitedCountryIDs).contains(feature.id);
@@ -33,13 +55,7 @@ var processData = function (error, results) {
   }());
 
   (function addStateOverlays() {
-    var visitedStateIDs = _(travelData.countries)
-      .chain()
-      .map(function (country) {
-        return _(country.states).pluck('id');
-      })
-      .flatten()
-      .value();
+    var visitedStateIDs = _(states).pluck('id');
 
     addOverlaysToMap(stateData, '#36455c', function (feature) {
       return _(visitedStateIDs).contains(feature.properties.STATE);
@@ -47,7 +63,7 @@ var processData = function (error, results) {
   }());
 
   (function addCityMarkers() {
-    var visitedCityGeoJSON = _(travelData.cities)
+    var visitedCityGeoJSON = _(cities)
       .chain()
       .map(function (city) {
         return {
