@@ -57,17 +57,17 @@ var processData = function (error, results) {
     return _(countryCities).union(stateCities);
   }());
 
-  (function addCountryOverlays() {
-    var visitedCountryIDs = _(countries).pluck('id');
+  var visitedCountryIDs = _(countries).pluck('id');
 
+  (function addCountryOverlays() {
     addOverlaysToMap(countryData, '#33864e', function (feature) {
       return _(visitedCountryIDs).contains(feature.id);
     });
   }());
 
-  (function addStateOverlays() {
-    var visitedStateIDs = _(states).pluck('id');
+  var visitedStateIDs = _(states).pluck('id');
 
+  (function addStateOverlays() {
     addOverlaysToMap(stateData, '#36455c', function (feature) {
       return _(visitedStateIDs).contains(feature.properties.STATE);
     });
