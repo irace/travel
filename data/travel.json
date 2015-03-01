@@ -14,6 +14,7 @@
     { "id": "SWE" },
     { "id": "USA",
       "states": [
+        { "id": "AZ" },
         { "id": "CA" },
         { "id": "CT" },
         { "id": "CO" },
@@ -62,7 +63,7 @@
     },
     {
       "name": "San Francisco",
-      "description": "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2014</li</ul>",
+      "description": "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2015</li</ul>",
       "coordinates": [-122.419416, 37.774929]
     },
     {
@@ -75,6 +76,21 @@
       "description": "Vacation with Tracy, October 2011",
       "coordinates": [-122.458036, 38.291859]
     },    
+    {
+      "name": "Palm Springs",
+      "description": "Vacation with Tracy, February 2015",
+      "coordinates": [-116.545292, 33.830296]
+    },  
+    {
+      "name": "Dana Point",
+      "description": "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
+      "coordinates": [-122.458036, 38.291859]
+    },  
+    {
+      "name": "Scottsdale",
+      "description": "Danielle Fertig’s wedding, February 2015",
+      "coordinates": [-122.458036, 38.291859]
+    },          
     {
       "name": "South Bend",
       "description": "Boston College at Notre Dame, October 2007",
@@ -224,7 +240,7 @@
     },
     {
       "name": "Austin",
-      "description": "Long weekend with Tracy, fall 2011",
+      "description": "Long weekend with Tracy, October 2011",
       "coordinates": [-97.743061, 30.267153]
     }, 
     {
@@ -322,6 +338,7 @@
     },
     {
       "name": "Versailles",
+      "description": "Vacation with Tracy, June 2014",
       "coordinates": [2.130122, 48.801408]
     },
     {
