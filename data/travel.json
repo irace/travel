@@ -202,6 +202,11 @@
               "coordinates": [-118.491191, 34.019454]
             },
             {
+              "name": "Hollywood",
+              "description": "Visisted in fall 2013",
+              "coordinates": [-118.328661, 334.092809]
+            },            
+            {
               "name": "Sonoma",
               "description": "Vacation with Tracy, October 2011",
               "coordinates": [-122.458036, 38.291859]
@@ -329,7 +334,12 @@
               "name": "Ocean City",
               "description": "",
               "coordinates": [-75.084906, 38.336503]
-            }
+            },
+            {
+              "name": "College Park",
+              "description": "Visited Scott, November 2013. Attended <a href=\"http://scores.espn.go.com/ncf/boxscore?gameId=333130120\">Syracuse at Maryland football game</a>.",
+              "coordinates": [-76.937760, 38.336503]
+            }            
           ]
         },
         { 
@@ -338,18 +348,28 @@
             {
               "name": "Boston",
               "description": "Attended Boston College from 2004-2008, countless trips back since. Also came here on a field trip in junior high.",
-              "coordinates": [-71.058880, 42.360082]
+              "coordinates": [-71.058880, 38.989697]
             },
             {
               "name": "Cape Cod",
               "description": "",
               "coordinates": [-70.320911, 41.699096]
-            }
+            },
+            {
+              "name": "Andover",
+              "description": "Visited Adam Quinn numerous times",
+              "coordinates": [-71.136795, 42.658336]
+            }            
           ]
         },
         { 
           "id": "MI",
           "cities": [
+            {
+              "name": "Ann Arbor",
+              "description": "Visited aunt/uncle/cousins when young",
+              "coordinates": [-83.743038, 42.280826]
+            }
           ]
         },
         { 
@@ -385,14 +405,39 @@
         { 
           "id": "NJ",
           "cities": [
+            {
+              "name": "Newark",
+              "description": "",
+              "coordinates": [-74.172367, 40.735657]
+            },
+            {
+              "name": "Hoboken",
+              "description": "",
+              "coordinates": [-74.032363, 40.743991]
+            },
+            {
+              "name": "Glen Rock",
+              "description": "",
+              "coordinates": [-74.132921, 40.962876]
+            },
+            {
+              "name": "Wyckoff",
+              "description": "",
+              "coordinates": [-74.172911, 41.009532]
+            },                        
           ]
         },
         { 
           "id": "NY",
           "cities": [
             {
+              "name": "Great River",
+              "description": "Grew up here",
+              "coordinates": [-73.157614, 40.721210]
+            },          
+            {
               "name": "New York",
-              "description": "Where I live, grew up, etc.",
+              "description": "Where I live",
               "coordinates": [-73.997641, 40.730904]
             },
             {
@@ -405,6 +450,11 @@
               "description": "",
               "coordinates": [-73.756232, 42.652579]
             },
+            {
+              "name": "Southampton Beach",
+              "description": "",
+              "coordinates": [-72.437587, 40.853712]
+            },            
             {
               "name": "Montauk",
               "description": "",
