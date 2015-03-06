@@ -203,7 +203,7 @@
             },
             {
               "name": "Hollywood",
-              "description": "Visisted in fall 2013",
+              "description": "Visited in fall 2013",
               "coordinates": [-118.328661, 334.092809]
             },            
             {
@@ -424,7 +424,7 @@
               "name": "Wyckoff",
               "description": "",
               "coordinates": [-74.172911, 41.009532]
-            },                        
+            }
           ]
         },
         { 
