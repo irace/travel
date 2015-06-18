@@ -171,6 +171,56 @@
       ]
     },
     { 
+      "id": "KHM",
+      "cities": [
+        {
+          "name": "Siem Reap",
+          "description": "Honeymoon, June 2015",
+          "coordinates": [103.859722, 13.362222]
+        }
+      ]
+    },
+    { 
+      "id": "THA",
+      "cities": [
+        {
+          "name": "Bangkok",
+          "description": "Honeymoon, May 2015", 
+          "coordinates": [100.501765, 13.756331]
+        },
+        {
+          "name": "Chiang Mai",
+          "description": "Honeymoon, June 2015",
+          "coordinates": [98.981716, 18.706064]
+        },
+        {
+          "name": "Koh Samui",
+          "description": "Honeymoon, June 2015",
+          "coordinates": [100.013593, 9.512017]
+        }                
+      ]
+    },
+    { 
+      "id": "VNM",
+      "cities": [
+        {
+          "name": "Hanoi",
+          "description": "Honeymoon, May 2015",
+          "coordinates": [105.834160, 21.027764]
+        },
+        {
+          "name": "Halong Bay",
+          "description": "Honeymoon, May 2015",
+          "coordinates": [107.491349, 21.062346]
+        },
+        {
+          "name": "Hoi An",
+          "description": "Honeymoon, June 2015",
+          "coordinates": [108.338047, 15.880058]
+        }                
+      ]
+    },            
+    { 
       "id": "USA",
       "states": [
         { 
