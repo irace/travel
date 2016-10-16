@@ -1,6 +1,6 @@
 {
   "countries": [
-    { 
+    {
       "id": "CAN",
       "cities": [
         {
@@ -25,7 +25,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "CZE",
       "cities": [
         {
@@ -35,7 +35,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "BHS",
       "cities": [
         {
@@ -45,7 +45,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "FRA",
       "cities": [
         {
@@ -60,7 +60,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "DEU",
         "cities": [
           {
@@ -70,22 +70,22 @@
           }
         ]
       },
-    { 
+    {
       "id": "GBR",
       "cities": [
         {
           "name": "London",
           "description": "Traveling with Eddie, May 2008",
-          "coordinates": [-0.127758, 51.507351]      
+          "coordinates": [-0.127758, 51.507351]
         }
       ]
     },
-    { 
+    {
       "id": "GRC",
       "cities": [
         {
           "name": "Costa Navarino",
-          "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",      
+          "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
           "coordinates": [21.656628, 36.956091]
         },
         {
@@ -100,7 +100,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "ITA",
       "cities": [
         {
@@ -130,7 +130,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "MAR",
       "cities": [
         {
@@ -140,7 +140,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "NLD",
       "cities": [
         {
@@ -150,7 +150,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "ESP",
       "cities": [
         {
@@ -160,7 +160,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "SWE",
       "cities": [
         {
@@ -170,7 +170,7 @@
         }
       ]
     },
-    { 
+    {
       "id": "KHM",
       "cities": [
         {
@@ -180,12 +180,12 @@
         }
       ]
     },
-    { 
+    {
       "id": "THA",
       "cities": [
         {
           "name": "Bangkok",
-          "description": "Honeymoon, May 2015", 
+          "description": "Honeymoon, May 2015",
           "coordinates": [100.501765, 13.756331]
         },
         {
@@ -197,10 +197,10 @@
           "name": "Koh Samui",
           "description": "Honeymoon, June 2015",
           "coordinates": [100.013593, 9.512017]
-        }                
+        }
       ]
     },
-    { 
+    {
       "id": "VNM",
       "cities": [
         {
@@ -217,13 +217,13 @@
           "name": "Hoi An",
           "description": "Honeymoon, June 2015",
           "coordinates": [108.338047, 15.880058]
-        }                
+        }
       ]
-    },            
-    { 
+    },
+    {
       "id": "USA",
       "states": [
-        { 
+        {
           "id": "AZ",
           "cities": [
             {
@@ -233,7 +233,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "CA",
           "cities": [
             {
@@ -255,34 +255,34 @@
               "name": "Hollywood",
               "description": "Visited in fall 2013",
               "coordinates": [-118.328661, 34.092809]
-            },            
+            },
             {
               "name": "Sonoma",
               "description": "Vacation with Tracy, October 2011",
               "coordinates": [-122.458036, 38.291859]
-            },    
+            },
             {
               "name": "Palm Springs",
               "description": "Vacation with Tracy, February 2015",
               "coordinates": [-116.545292, 33.830296]
-            },  
+            },
             {
               "name": "Dana Point",
               "description": "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
               "coordinates": [-117.698107, 33.466972]
             }
-          ]          
+          ]
         },
-        { 
+        {
           "id": "CT",
           "cities": [
             {
               "name": "Mohegan Sun",
               "coordinates": [-72.110095, 41.431690]
             }
-          ]          
+          ]
         },
-        { 
+        {
           "id": "CO",
           "cities": [
             {
@@ -295,9 +295,9 @@
               "description": "Visited Joe with Costa and Abbey, April 2013",
               "coordinates": [-105.270546, 40.014986]
             }
-          ]         
+          ]
         },
-        { 
+        {
           "id": "DE",
           "cities": [
             {
@@ -305,9 +305,9 @@
               "description": "Visited Meghan and Erin, fall 2009",
               "coordinates": [-75.454136, 38.634394]
             }
-          ]         
+          ]
         },
-        { 
+        {
           "id": "FL",
           "cities": [
             {
@@ -332,7 +332,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "GA",
           "cities": [
             {
@@ -347,17 +347,17 @@
             }
           ]
         },
-        { 
+        {
           "id": "IL",
           "cities": [
             {
               "name": "Chicago",
               "description": "<ul><li>Visisted Dave Brace, August 2007</li><li>Boston College at Notre Dame, October 2007</li><li>Dave Brace’s wedding, August 2012</li></ul>",
               "coordinates": [-87.629798, 41.878114]
-            }          
+            }
           ]
         },
-        { 
+        {
           "id": "IN",
           "cities": [
             {
@@ -367,7 +367,19 @@
             }
           ]
         },
-        { 
+
+        {
+          "id": "KY",
+          "cities": [
+            {
+              "name": "Louisville",
+              "description": "Kentucky Derby, May 2016",
+              "coordinates": [-85.758456, 38.252665]
+            }
+          ]
+        },
+
+        {
           "id": "LA",
           "cities": [
             {
@@ -377,7 +389,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "MD",
           "cities": [
             {
@@ -389,10 +401,10 @@
               "name": "College Park",
               "description": "Visited Scott, November 2013. Attended <a href=\"http://scores.espn.go.com/ncf/boxscore?gameId=333130120\">Syracuse at Maryland football game</a>.",
               "coordinates": [-76.937760, 38.336503]
-            }            
+            }
           ]
         },
-        { 
+        {
           "id": "MA",
           "cities": [
             {
@@ -409,10 +421,15 @@
               "name": "Andover",
               "description": "Visited Adam Quinn numerous times",
               "coordinates": [-71.136795, 42.658336]
-            }            
+            },
+            {
+              "name": "Martha’s Vineyard",
+              "description": "Katie and Steve’s wedding, September 2016",
+              "coordinates": [-70.645473, 41.380498]
+            }
           ]
         },
-        { 
+        {
           "id": "MI",
           "cities": [
             {
@@ -422,7 +439,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "NV",
           "cities": [
             {
@@ -432,7 +449,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "NH",
           "cities": [
             {
@@ -442,7 +459,7 @@
             },
             {
               "name": "Hampstead",
-              "description": "",              
+              "description": "",
               "coordinates": [-71.180980, 42.874488]
             },
             {
@@ -452,7 +469,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "NJ",
           "cities": [
             {
@@ -477,14 +494,14 @@
             }
           ]
         },
-        { 
+        {
           "id": "NY",
           "cities": [
             {
               "name": "Great River",
               "description": "Grew up here",
               "coordinates": [-73.157614, 40.721210]
-            },          
+            },
             {
               "name": "New York",
               "description": "Where I live",
@@ -504,25 +521,30 @@
               "name": "Southampton Beach",
               "description": "",
               "coordinates": [-72.437587, 40.853712]
-            },            
+            },
             {
               "name": "Montauk",
               "description": "",
               "coordinates": [-71.954515, 41.035935]
+            },
+            {
+              "name": "Oheka Castle",
+              "description": "Stayed here with Tracy, July 2016",
+              "coordinates": [-73.448494, 40.828978]
             }
           ]
         },
-        { 
+        {
           "id": "NC",
           "cities": [
             {
               "name": "Charlotte",
               "description": "",
               "coordinates": [-80.843127, 35.227087]
-            }          
+            }
           ]
         },
-        { 
+        {
           "id": "OH",
           "cities": [
             {
@@ -532,7 +554,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "OR",
           "cities": [
             {
@@ -547,7 +569,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "PA",
           "cities": [
             {
@@ -557,12 +579,12 @@
             },
             {
               "name": "Philadelphia",
-              "description": "",
+              "description": "<ul><li>Visit with friends, May 2014</li><li>CocoaLove conference, October 2015</li><li>Steve’s bachelor party, June 2016</li></ul>",
               "coordinates": [-75.165222, 39.952584]
             }
           ]
         },
-        { 
+        {
           "id": "RI",
           "cities": [
             {
@@ -572,7 +594,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "SC",
           "cities": [
             {
@@ -594,10 +616,10 @@
               "name": "Hilton Head",
               "description": "",
               "coordinates": [-80.752608, 32.216316]
-            }          
+            }
           ]
         },
-        { 
+        {
           "id": "TX",
           "cities": [
             {
@@ -612,7 +634,7 @@
             }
           ]
         },
-        { 
+        {
           "id": "VT",
           "cities": [
             {
@@ -622,27 +644,27 @@
             }
           ]
         },
-        { 
+        {
           "id": "VA",
           "cities": [
             {
               "name": "Charlottesville",
               "description": "",
               "coordinates": [-78.476678, 38.029306]
-            }          
+            }
           ]
         },
-        { 
+        {
           "id": "DC",
           "cities": [
             {
               "name": "Washington, DC",
-              "description": "",
+              "description": "<ul><li>School visit in 8th grade</li><li>Trip with family</li><li>Visit senior year of college</li><li>SXSL festival, October 2016</li></ul>",
               "coordinates": [-77.036871, 38.907192]
             }
           ]
         },
-        { 
+        {
           "id": "WI",
           "cities": [
             {
