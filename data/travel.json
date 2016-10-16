@@ -279,6 +279,11 @@
             {
               "name": "Mohegan Sun",
               "coordinates": [-72.110095, 41.431690]
+            },
+            {
+              "name": "Woodbury",
+              "description": "Day trip, September 2016",
+              "coordinates": [-73.209002, 41.544540]
             }
           ]
         },
