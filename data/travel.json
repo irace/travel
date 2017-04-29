@@ -171,6 +171,26 @@
       ]
     },
     {
+      "id": "IRL",
+      "cities": [
+        {
+          "name": "Galway",
+          "description": "Kevin Foote’s bachelor party, April 2017",
+          "coordinates": [9.056791, 53.270668]
+        },
+        {
+          "name": "Dublin",
+          "description": "Kevin Foote’s bachelor party, April 2017",
+          "coordinates": [-6.260310, 53.349805]
+        },
+        {
+          "name": "Inishmore",
+          "description": "Kevin Foote’s bachelor party, April 2017",
+          "coordinates": [-9.719664, 53.128872]
+        }
+      ]
+    },
+    {
       "id": "KHM",
       "cities": [
         {
