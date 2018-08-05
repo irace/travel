@@ -52,12 +52,12 @@
         {
           "name": "Cape Town",
           "description": "Vacation with Tracy, December 2017",
-          "coordinates": [-33.924869, 18.424055]
+          "coordinates": [18.424055, -33.924869]
         },
         {
           "name": "Timbavati Game Reserve",
           "description": "Vacation with Tracy, December 2017",
-          "coordinates": [-24.373173, 31.339521]
+          "coordinates": [31.339521, -24.373173]
         }
       ]
     },
