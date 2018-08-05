@@ -6,7 +6,7 @@
         {
           "name": "Halifax",
           "description": "Vacation with family, 2002",
-          "coordinates": [-63.575320, 44.648862]
+          "coordinates": [-63.57532, 44.648862]
         },
         {
           "name": "Nova Scotia",
@@ -20,7 +20,8 @@
         },
         {
           "name": "Montreal",
-          "description": "<ul><li>With BC friends, fall 2004</li><li>For the <a href=\"http://cingleton.com\">Çingleton</a> conference, October 2014</li></ul>",
+          "description":
+            "<ul><li>With BC friends, fall 2004</li><li>For the <a href=\"http://cingleton.com\">Çingleton</a> conference, October 2014</li></ul>",
           "coordinates": [-73.567256, 45.501689]
         }
       ]
@@ -31,7 +32,7 @@
         {
           "name": "Prague",
           "description": "Vacation with Tracy, July 2014",
-          "coordinates": [14.437800, 50.075538]
+          "coordinates": [14.4378, 50.075538]
         }
       ]
     },
@@ -46,11 +47,27 @@
       ]
     },
     {
+      "id": "ZAF",
+      "cities": [
+        {
+          "name": "Cape Town",
+          "description": "Vacation with Tracy, December 2017",
+          "coordinates": [-33.924869, 18.424055]
+        },
+        {
+          "name": "Timbavati Game Reserve",
+          "description": "Vacation with Tracy, December 2017",
+          "coordinates": [-24.373173, 31.339521]
+        }
+      ]
+    },
+    {
       "id": "FRA",
       "cities": [
         {
           "name": "Paris",
-          "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with Tracy, June 2014</li></ul>",
+          "description":
+            "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with Tracy, June 2014</li></ul>",
           "coordinates": [2.352222, 48.856614]
         },
         {
@@ -62,14 +79,14 @@
     },
     {
       "id": "DEU",
-        "cities": [
-          {
-            "name": "Munich",
-            "description": "Vacation with Tracy, July 2014",
-            "coordinates": [11.581981, 48.135125]
-          }
-        ]
-      },
+      "cities": [
+        {
+          "name": "Munich",
+          "description": "Vacation with Tracy, July 2014",
+          "coordinates": [11.581981, 48.135125]
+        }
+      ]
+    },
     {
       "id": "GBR",
       "cities": [
@@ -91,12 +108,12 @@
         {
           "name": "Zakynthos",
           "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
-          "coordinates": [20.898827, 37.788160]
+          "coordinates": [20.898827, 37.78816]
         },
         {
           "name": "Athens",
           "description": "Vacation with Tracy, July 2014 (Costa’s wedding)",
-          "coordinates": [23.729360, 37.983917]
+          "coordinates": [23.72936, 37.983917]
         }
       ]
     },
@@ -105,7 +122,8 @@
       "cities": [
         {
           "name": "Rome",
-          "description": "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with family, June 2012</li></ul>",
+          "description":
+            "<ul><li>Traveling with Eddie, May 2008</li><li>Vacation with family, June 2012</li></ul>",
           "coordinates": [12.496366, 41.902783]
         },
         {
@@ -136,7 +154,7 @@
         {
           "name": "Marrakech",
           "description": "Vacation with Tracy, September 2012",
-          "coordinates": [-8.008889, 31.630000]
+          "coordinates": [-8.008889, 31.63]
         }
       ]
     },
@@ -181,7 +199,7 @@
         {
           "name": "Dublin",
           "description": "Kevin Foote’s bachelor party, April 2017",
-          "coordinates": [-6.260310, 53.349805]
+          "coordinates": [-6.26031, 53.349805]
         },
         {
           "name": "Inishmore",
@@ -226,7 +244,7 @@
         {
           "name": "Hanoi",
           "description": "Honeymoon, May 2015",
-          "coordinates": [105.834160, 21.027764]
+          "coordinates": [105.83416, 21.027764]
         },
         {
           "name": "Halong Bay",
@@ -249,7 +267,7 @@
             {
               "name": "Scottsdale",
               "description": "Danielle Fertig’s wedding, February 2015",
-              "coordinates": [-111.926052, 33.494170]
+              "coordinates": [-111.926052, 33.49417]
             }
           ]
         },
@@ -258,7 +276,8 @@
           "cities": [
             {
               "name": "San Francisco",
-              "description": "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2015</li</ul>",
+              "description":
+                "<ul><li>Vacation with Tracy, October 2011</li><li>WWDC, June 2013</li><li>Visiting Tracy, February 2015</li</ul>",
               "coordinates": [-122.419416, 37.774929]
             },
             {
@@ -268,7 +287,8 @@
             },
             {
               "name": "Santa Monica",
-              "description": "Stayed here for the 2013 Boston College at USC Trojans game",
+              "description":
+                "Stayed here for the 2013 Boston College at USC Trojans game",
               "coordinates": [-118.491191, 34.019454]
             },
             {
@@ -288,7 +308,8 @@
             },
             {
               "name": "Dana Point",
-              "description": "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
+              "description":
+                "Stopped for lunch with Tracy and Liz and Chris Cutrano, February 2015",
               "coordinates": [-117.698107, 33.466972]
             }
           ]
@@ -298,12 +319,12 @@
           "cities": [
             {
               "name": "Mohegan Sun",
-              "coordinates": [-72.110095, 41.431690]
+              "coordinates": [-72.110095, 41.43169]
             },
             {
               "name": "Woodbury",
               "description": "Day trip, September 2016",
-              "coordinates": [-73.209002, 41.544540]
+              "coordinates": [-73.209002, 41.54454]
             }
           ]
         },
@@ -347,13 +368,14 @@
             },
             {
               "name": "Fort Lauderdale",
-              "description": "Numerous times since 2010 to visit Tracy’s parents",
+              "description":
+                "Numerous times since 2010 to visit Tracy’s parents",
               "coordinates": [-80.137317, 26.122439]
             },
             {
               "name": "Miami",
               "description": "Trip with Tracy’s work, October 2010",
-              "coordinates": [-80.191790, 25.761680]
+              "coordinates": [-80.19179, 25.76168]
             }
           ]
         },
@@ -362,7 +384,8 @@
           "cities": [
             {
               "name": "Atlanta",
-              "description": "Visited prior to attending Boston College at Clemson, November 2007",
+              "description":
+                "Visited prior to attending Boston College at Clemson, November 2007",
               "coordinates": [-84.387982, 33.748995]
             },
             {
@@ -377,7 +400,8 @@
           "cities": [
             {
               "name": "Chicago",
-              "description": "<ul><li>Visisted Dave Brace, August 2007</li><li>Boston College at Notre Dame, October 2007</li><li>Dave Brace’s wedding, August 2012</li></ul>",
+              "description":
+                "<ul><li>Visisted Dave Brace, August 2007</li><li>Boston College at Notre Dame, October 2007</li><li>Dave Brace’s wedding, August 2012</li></ul>",
               "coordinates": [-87.629798, 41.878114]
             }
           ]
@@ -388,7 +412,7 @@
             {
               "name": "South Bend",
               "description": "Boston College at Notre Dame, October 2007",
-              "coordinates": [-86.251990, 41.676355]
+              "coordinates": [-86.25199, 41.676355]
             }
           ]
         },
@@ -424,8 +448,9 @@
             },
             {
               "name": "College Park",
-              "description": "Visited Scott, November 2013. Attended <a href=\"http://scores.espn.go.com/ncf/boxscore?gameId=333130120\">Syracuse at Maryland football game</a>.",
-              "coordinates": [-76.937760, 38.336503]
+              "description":
+                "Visited Scott, November 2013. Attended <a href=\"http://scores.espn.go.com/ncf/boxscore?gameId=333130120\">Syracuse at Maryland football game</a>.",
+              "coordinates": [-76.93776, 38.336503]
             }
           ]
         },
@@ -434,8 +459,9 @@
           "cities": [
             {
               "name": "Boston",
-              "description": "Attended Boston College from 2004-2008, countless trips back since. Also came here on a field trip in junior high.",
-              "coordinates": [-71.058880, 42.360082]
+              "description":
+                "Attended Boston College from 2004-2008, countless trips back since. Also came here on a field trip in junior high.",
+              "coordinates": [-71.05888, 42.360082]
             },
             {
               "name": "Cape Cod",
@@ -469,8 +495,9 @@
           "cities": [
             {
               "name": "Las Vegas",
-              "description": "<ul><li>Trip with Tracy’s work, October 2011</li><li>In 2009 with Eddie, Bobby, etc.</li></ul>",
-              "coordinates": [-115.139830, 36.169941]
+              "description":
+                "<ul><li>Trip with Tracy’s work, October 2011</li><li>In 2009 with Eddie, Bobby, etc.</li></ul>",
+              "coordinates": [-115.13983, 36.169941]
             }
           ]
         },
@@ -479,18 +506,19 @@
           "cities": [
             {
               "name": "Bristol",
-              "description": "Countless visits to Adam Quinn’s house on Newfound Lake",
-              "coordinates": [-71.736716, 43.591150]
+              "description":
+                "Countless visits to Adam Quinn’s house on Newfound Lake",
+              "coordinates": [-71.736716, 43.59115]
             },
             {
               "name": "Hampstead",
               "description": "",
-              "coordinates": [-71.180980, 42.874488]
+              "coordinates": [-71.18098, 42.874488]
             },
             {
               "name": "Manchester",
               "description": "",
-              "coordinates": [-71.454789, 42.995640]
+              "coordinates": [-71.454789, 42.99564]
             }
           ]
         },
@@ -525,7 +553,7 @@
             {
               "name": "Great River",
               "description": "Grew up here",
-              "coordinates": [-73.157614, 40.721210]
+              "coordinates": [-73.157614, 40.72121]
             },
             {
               "name": "New York",
@@ -575,7 +603,7 @@
             {
               "name": "Youngstown",
               "description": "",
-              "coordinates": [-80.649519, 41.099780]
+              "coordinates": [-80.649519, 41.09978]
             }
           ]
         },
@@ -585,7 +613,7 @@
             {
               "name": "Bend",
               "description": "Visited Kurt Reinhart, June 2010",
-              "coordinates": [-121.315310, 44.058173]
+              "coordinates": [-121.31531, 44.058173]
             },
             {
               "name": "Portland",
@@ -604,7 +632,8 @@
             },
             {
               "name": "Philadelphia",
-              "description": "<ul><li>Visit with friends, May 2014</li><li>CocoaLove conference, October 2015</li><li>Steve’s bachelor party, June 2016</li></ul>",
+              "description":
+                "<ul><li>Visit with friends, May 2014</li><li>CocoaLove conference, October 2015</li><li>Steve’s bachelor party, June 2016</li></ul>",
               "coordinates": [-75.165222, 39.952584]
             }
           ]
@@ -629,13 +658,15 @@
             },
             {
               "name": "Charleston",
-              "description": "<ul><li>A few times with Adam in college</li><li>Adam and Heidi’s wedding, May 2017</li></ul>",
+              "description":
+                "<ul><li>A few times with Adam in college</li><li>Adam and Heidi’s wedding, May 2017</li></ul>",
               "coordinates": [-79.931051, 32.776475]
             },
             {
               "name": "Columbia",
-              "description": "<ul><li>Keith and Beth Dalick’s wedding, October 2013</li><li>Visit Keith/Beth/Leah, May 2017</li></ul>",
-              "coordinates": [-81.034814, 34.000710]
+              "description":
+                "<ul><li>Keith and Beth Dalick’s wedding, October 2013</li><li>Visit Keith/Beth/Leah, May 2017</li></ul>",
+              "coordinates": [-81.034814, 34.00071]
             },
             {
               "name": "Hilton Head",
@@ -650,11 +681,12 @@
             {
               "name": "South Padre Island",
               "description": "",
-              "coordinates": [-97.168126, 26.111840]
+              "coordinates": [-97.168126, 26.11184]
             },
             {
               "name": "Austin",
-              "description": "<ul><li>Long weekend with Tracy, October 2011</li><li>My bachelor party, May 26-29, 2015</li></ul>",
+              "description":
+                "<ul><li>Long weekend with Tracy, October 2011</li><li>My bachelor party, May 26-29, 2015</li></ul>",
               "coordinates": [-97.743061, 30.267153]
             }
           ]
@@ -664,7 +696,8 @@
           "cities": [
             {
               "name": "Burlington",
-              "description": "Came here for a long weekend with Tracy in the Summer of 2013",
+              "description":
+                "Came here for a long weekend with Tracy in the Summer of 2013",
               "coordinates": [-73.212072, 44.475882]
             }
           ]
@@ -684,7 +717,8 @@
           "cities": [
             {
               "name": "Washington, DC",
-              "description": "<ul><li>School visit in 8th grade</li><li>Trip with family</li><li>Visit senior year of college</li><li>SXSL festival, October 2016</li></ul>",
+              "description":
+                "<ul><li>School visit in 8th grade</li><li>Trip with family</li><li>Visit senior year of college</li><li>SXSL festival, October 2016</li></ul>",
               "coordinates": [-77.036871, 38.907192]
             }
           ]
@@ -694,7 +728,8 @@
           "cities": [
             {
               "name": "East Troy",
-              "description": "Dave Brace’s bacelor party, July 2012. Attended <a href=\"http://www.setlist.fm/setlist/dave-matthews-band/2012/alpine-valley-music-theatre-east-troy-wi-13df517d.html\">this Dave Matthews Band concert</a> at the Apline Valley Music Theatre",
+              "description":
+                "Dave Brace’s bacelor party, July 2012. Attended <a href=\"http://www.setlist.fm/setlist/dave-matthews-band/2012/alpine-valley-music-theatre-east-troy-wi-13df517d.html\">this Dave Matthews Band concert</a> at the Apline Valley Music Theatre",
               "coordinates": [-88.405096, 42.785292]
             }
           ]
